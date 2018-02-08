@@ -57,6 +57,7 @@ class ViewController: UIViewController {
             playerPaper.isHidden = false
             playerScissors.isHidden = false
             playerRock.isHidden = false
+            view.backgroundColor = UIColor(red: 255/255, green: 209/255, blue: 195/255, alpha: 1)
         } else if gameState == GameState.win {
             gameStatus.text = gameState.gameStateText
             view.backgroundColor = UIColor(red: 173/255, green: 213/255, blue: 157/255, alpha: 1)
